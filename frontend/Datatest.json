@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "act":"Run",
+    "icon":"./svg/runing.svg"
+  }, {
+    "id": 2,
+    "act":"Walk",
+    "icon":"./svg/walking.svg"
+  }, {
+    "id": 3,
+    "act":"Bikking",
+    "icon":"./svg/biking.svg"
+  }, {
+    "id": 4,
+    "act":"Swimming",
+    "icon":"./svg/swimming.svg"
+  }, {
+    "id": 5,
+    "act":"Pushups",
+    "icon":"./svg/pushups.svg"
+  }, {
+    "id": 6,
+    "act":"Hula hoop",
+    "icon":"./svg/hulaHoop.svg"
+  }
+]
