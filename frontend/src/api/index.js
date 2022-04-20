@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const client = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://goal-to-9cwdft49s-oumchutii.vercel.app/",
 });
 
 export const getRecords = async () =>{
