@@ -13,7 +13,7 @@ import dataIconAct from "../DataToTest/dateActIcon.json";
 import axios from "axios";
 
 const client = axios.create({
-    baseURL: "https://.vercel.app",
+    baseURL: "https://goal-to-9cwdft49s-oumchutii.vercel.app/",
   });
 
 
