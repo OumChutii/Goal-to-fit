@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const app = require('../api/index');
+const app = require('./api/index');
 
-const config = require('../src/config')
+const config = require('./config')
 
 const boot = async () => {
   // Connect to mongodb
