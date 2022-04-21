@@ -12,7 +12,8 @@ import IconAct from "../../components/IconAct/IconAct";
 import dataIconAct from "../DataToTest/dateActIcon.json";
 import axios from "axios";
 
-axios.get('https://goal-to-fit-backend.vercel.app/uesers/me/records/');
+axios.get('http://localhost:4001/users/me/records')
+.then(res => console.log(res))
 
 const client = axios.create({
     baseURL: "https://goal-to-fit-backend.vercel.app/",
