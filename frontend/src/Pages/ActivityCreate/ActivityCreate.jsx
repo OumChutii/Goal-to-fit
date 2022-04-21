@@ -12,8 +12,10 @@ import IconAct from "../../components/IconAct/IconAct";
 import dataIconAct from "../DataToTest/dateActIcon.json";
 import axios from "axios";
 
+axios.get('https://goal-to-fit-backend.vercel.app/uesers/me/records/');
+
 const client = axios.create({
-    baseURL: "https://goal-to-9cwdft49s-oumchutii.vercel.app/",
+    baseURL: "https://goal-to-fit-backend.vercel.app/",
   });
 
 
