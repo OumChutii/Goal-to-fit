@@ -11,7 +11,7 @@ import ActivityGraph from '../../components/ActivityReport/ActivityGraph/Activit
 import ActivityCard from '../../components/ActivityReport/ActivityCard/ActivityCard';
 import { getRecords } from "../../api";
 
-const ActivityReport = () => {
+const ActivityReport = () => { 
     
         const [actCardsResult, setActCardsResult] = useState("");
         
